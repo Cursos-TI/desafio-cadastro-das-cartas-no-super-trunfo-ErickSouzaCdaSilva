@@ -7,11 +7,10 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char estado1,estado2;
-    char codigo_de_cartas1,codigo_de_cartas2;
-    char nome_da_cidade1,nome_da_cidade2;
+
+    char estado1[20],estado2[20];
+    char codigo_de_cartas1[50],codigo_de_cartas2[50];
+    char nome_da_cidade1[50],nome_da_cidade2[50];
     unsigned int população1,população2;
     float area1,area2;
     float pib1,pib2;
@@ -95,7 +94,7 @@ int main() {
     printf("Área: %.3fKM²\n",area1);
     printf("PIB: %.3fbilhões de reais\n",pib1);
     printf("Pontos turisticos: %d\n",pontos_turisticos1);
-    rintf("Densidade Populacional:%.3f hab/KM²\n",densidadepulacional1);
+    printf("Densidade Populacional:%.3f hab/KM²\n",densidadepulacional1);
     printf("PIB per capita:%.3freais\n",pibpercapita1);
     printf("o nivel de super poder:%f\n",superpoder1);
     
