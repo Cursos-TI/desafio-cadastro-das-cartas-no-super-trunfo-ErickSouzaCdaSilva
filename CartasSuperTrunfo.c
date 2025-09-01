@@ -87,7 +87,7 @@ int main() {
     
     //primeira carta
 
-    printf("Estado: %s\n",estado1);
+    printf("\nEstado: %s\n",estado1);
     printf("Codigo: %s\n",codigo_de_cartas1);
     printf("Nome da cidade: %s\n",nome_da_cidade1);
     printf("População: %u\n",população1);
